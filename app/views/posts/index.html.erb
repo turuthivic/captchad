@@ -1,0 +1,9 @@
+<h1> Captchad</h1>
+<p> cool app here. Smh!</p>
+<p><%= link_to "new post",new_post_path %></p>
+<tr>
+<td><%@posts.each do |p| %></td>
+<td><%= p.image %></td>
+<td><%= p.caption %></td>
+</tr>
+<% end %>
